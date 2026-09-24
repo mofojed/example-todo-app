@@ -80,8 +80,6 @@ export function activate(context: vscode.ExtensionContext): void {
       });
     }
     await preview.show();
-    // Revealed after the first build, as an empty output channel can't be shown
-    preview.showConsole();
   })();
 }
 
